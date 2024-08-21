@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Mascotas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="./img/logo.jpeg" class="logo">
+        </div>
+
+        <!-- Contenido Principal -->
+        <div class="main-content">
+            <!-- Texto a la izquierda -->
+            <div class="text-content">
+                <h1>¡Prueba gratis <div class="chefi">Chefibio </div> y descubre la diferencia para tu peludito!</h1>
+                <h4>Chefibio es una dieta 100% natural ideal para tu perro</h2>
+                    <h3>Chefi burger tiene un costo de <strong class="precio">8.000</strong> pesos por 200 gr, y Chefi
+                        Nuggets tiene un costo de <strong class="precio">17.000</strong> pesos por 200 gr, completa el
+                        formulario y recibe una muestra de cada uno por el costo del envio (10 Mil) <strong
+                            class="orange">Solo aplica para bogot&aacute;</strong>
+                        </h3>
+            </div>
+
+            <!-- Formulario a la derecha -->
+            <div class="form-container">
+                <div class="text-content">
+                    <h3>¡Completa el siguiente formulario y recibe una muestra <strong class="orange">gratis</strong> en tu domicilio!</h3>
+                </div>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre <span>*</span></label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefono">Teléfono Celular <span>*</span></label>
+                    <input type="tel" id="telefono" name="telefono" required>
+
+                    <label for="ciudad">¿En qué ciudad vives? <span>*</span></label>
+                    <input type="text" id="ciudad" name="ciudad" required>
+
+                    <label for="direccion">Dirección <span>*</span></label>
+                    <input type="text" id="direccion" name="direccion" required>
+
+                    <label for="gasto">¿Cuánto gastas en alimento al mes para tu mascota? <span>*</span></label>
+                    <input type="number" id="gasto" name="gasto" required>
+
+                    <label for="suplementos">¿Añades suplementos en el alimento para tu mascota? <span>*</span></label>
+                    <input type="text" id="suplementos" name="suplementos" required>
+
+                    <label for="actividades">¿Tu perrito asiste a escuela, tiene paseador o guardería?
+                        <span>*</span></label>
+                    <input type="text" id="actividades" name="actividades" required>
+
+                    <label for="frecuencia">Si tu respuesta es sí, ¿cuántas veces a la semana hace esa actividad?
+                        <span>*</span></label>
+                    <input type="number" id="frecuencia" name="frecuencia" required>
+
+                    <label for="peso">¿Cuánto pesa tu perrito? <span>*</span></label>
+                    <input type="number" id="peso" name="peso" required>
+
+                    <button type="submit"><strong>¡Si, quiero recibir la muestra gratis!</strong></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
